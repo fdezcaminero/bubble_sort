@@ -1,4 +1,4 @@
-bubble_sort_by(arr)
+def bubble_sort_by(arr)
     len = arr.length
     lil_len = len-1
 
@@ -15,5 +15,9 @@ end
 
 my_array1 = [3, 1, 2, 1, 9, 10, 7, 8, 120, 1]
 my_array2 = ["z", "x", "a", "b", "q", "y"]
+my_array3 = ["hi", "hello", "hey"]
+
 
 p bubble_sort_by(my_array1) { |x, y| x - y }
+
+p bubble_sort_by(my_array3) { |x, y| x.length - y.length }
